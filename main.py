@@ -1,5 +1,4 @@
 
-
 def check_balance(account_number):
   """
   This function checks the balance of the given account number.
@@ -29,7 +28,7 @@ def withdraw(account_number, amount):
       connection.commit()
       print(f"You have withdrawn ${amount:.2f} from your account.")
 
-# Main Banking System Loop
+# Main Banking System
 while True:
 print ('Hello User')
 print ('Are you a new or current user?')
