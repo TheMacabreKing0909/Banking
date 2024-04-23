@@ -81,5 +81,4 @@ while True:
       print("Thank you for using our bank's services, have a good  day.")
       break
   elif z == '':
-    
-    print("That is not an option, please type either 1, 2, 3, or 4.")
+      print("Invalid input. Please try again.")
