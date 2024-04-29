@@ -1,4 +1,12 @@
+import mysql.connector
 
+
+
+connection = mysql.connector.connect(user = 'username', database = 'Local2', password = 'password')
+
+
+
+connection.close()
 def check_balance(account_number):
   """
   This function checks the balance of the given account number.
